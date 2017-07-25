@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336F55431F26E4FD00F79650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F55421F26E4FD00F79650 /* AppDelegate.swift */; };
+		336F55451F26E4FE00F79650 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 336F55441F26E4FE00F79650 /* GameScene.sks */; };
+		336F55471F26E4FE00F79650 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 336F55461F26E4FE00F79650 /* Actions.sks */; };
+		336F55491F26E4FE00F79650 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F55481F26E4FE00F79650 /* GameScene.swift */; };
+		336F554B1F26E4FE00F79650 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F554A1F26E4FE00F79650 /* GameViewController.swift */; };
+		336F554E1F26E4FE00F79650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336F554C1F26E4FE00F79650 /* Main.storyboard */; };
+		336F55501F26E4FF00F79650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336F554F1F26E4FF00F79650 /* Assets.xcassets */; };
+		336F55531F26E4FF00F79650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336F55511F26E4FF00F79650 /* LaunchScreen.storyboard */; };
+		336F555E1F26E50000F79650 /* Triangle_FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F555D1F26E50000F79650 /* Triangle_FlipTests.swift */; };
+		336F55691F26E50000F79650 /* Triangle_FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F55681F26E50000F79650 /* Triangle_FlipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336F555A1F26E50000F79650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336F55371F26E4FD00F79650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336F553E1F26E4FD00F79650;
+			remoteInfo = "Triangle Flip";
+		};
+		336F55651F26E50000F79650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336F55371F26E4FD00F79650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336F553E1F26E4FD00F79650;
+			remoteInfo = "Triangle Flip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		336F553F1F26E4FD00F79650 /* Triangle Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Triangle Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336F55421F26E4FD00F79650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		336F55441F26E4FE00F79650 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		336F55461F26E4FE00F79650 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		336F55481F26E4FE00F79650 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		336F554A1F26E4FE00F79650 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		336F554D1F26E4FE00F79650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		336F554F1F26E4FF00F79650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		336F55521F26E4FF00F79650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		336F55541F26E4FF00F79650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336F55591F26E50000F79650 /* Triangle FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triangle FlipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336F555D1F26E50000F79650 /* Triangle_FlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle_FlipTests.swift; sourceTree = "<group>"; };
+		336F555F1F26E50000F79650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336F55641F26E50000F79650 /* Triangle FlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triangle FlipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336F55681F26E50000F79650 /* Triangle_FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle_FlipUITests.swift; sourceTree = "<group>"; };
+		336F556A1F26E50100F79650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336F553C1F26E4FD00F79650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336F55561F26E50000F79650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336F55611F26E50000F79650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336F55361F26E4FC00F79650 = {
+			isa = PBXGroup;
+			children = (
+				336F55411F26E4FD00F79650 /* Triangle Flip */,
+				336F555C1F26E50000F79650 /* Triangle FlipTests */,
+				336F55671F26E50000F79650 /* Triangle FlipUITests */,
+				336F55401F26E4FD00F79650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336F55401F26E4FD00F79650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336F553F1F26E4FD00F79650 /* Triangle Flip.app */,
+				336F55591F26E50000F79650 /* Triangle FlipTests.xctest */,
+				336F55641F26E50000F79650 /* Triangle FlipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336F55411F26E4FD00F79650 /* Triangle Flip */ = {
+			isa = PBXGroup;
+			children = (
+				336F55421F26E4FD00F79650 /* AppDelegate.swift */,
+				336F55441F26E4FE00F79650 /* GameScene.sks */,
+				336F55461F26E4FE00F79650 /* Actions.sks */,
+				336F55481F26E4FE00F79650 /* GameScene.swift */,
+				336F554A1F26E4FE00F79650 /* GameViewController.swift */,
+				336F554C1F26E4FE00F79650 /* Main.storyboard */,
+				336F554F1F26E4FF00F79650 /* Assets.xcassets */,
+				336F55511F26E4FF00F79650 /* LaunchScreen.storyboard */,
+				336F55541F26E4FF00F79650 /* Info.plist */,
+			);
+			path = "Triangle Flip";
+			sourceTree = "<group>";
+		};
+		336F555C1F26E50000F79650 /* Triangle FlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				336F555D1F26E50000F79650 /* Triangle_FlipTests.swift */,
+				336F555F1F26E50000F79650 /* Info.plist */,
+			);
+			path = "Triangle FlipTests";
+			sourceTree = "<group>";
+		};
+		336F55671F26E50000F79650 /* Triangle FlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				336F55681F26E50000F79650 /* Triangle_FlipUITests.swift */,
+				336F556A1F26E50100F79650 /* Info.plist */,
+			);
+			path = "Triangle FlipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336F553E1F26E4FD00F79650 /* Triangle Flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336F556D1F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle Flip" */;
+			buildPhases = (
+				336F553B1F26E4FD00F79650 /* Sources */,
+				336F553C1F26E4FD00F79650 /* Frameworks */,
+				336F553D1F26E4FD00F79650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Triangle Flip";
+			productName = "Triangle Flip";
+			productReference = 336F553F1F26E4FD00F79650 /* Triangle Flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		336F55581F26E50000F79650 /* Triangle FlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336F55701F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle FlipTests" */;
+			buildPhases = (
+				336F55551F26E50000F79650 /* Sources */,
+				336F55561F26E50000F79650 /* Frameworks */,
+				336F55571F26E50000F79650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336F555B1F26E50000F79650 /* PBXTargetDependency */,
+			);
+			name = "Triangle FlipTests";
+			productName = "Triangle FlipTests";
+			productReference = 336F55591F26E50000F79650 /* Triangle FlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		336F55631F26E50000F79650 /* Triangle FlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336F55731F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle FlipUITests" */;
+			buildPhases = (
+				336F55601F26E50000F79650 /* Sources */,
+				336F55611F26E50000F79650 /* Frameworks */,
+				336F55621F26E50000F79650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336F55661F26E50000F79650 /* PBXTargetDependency */,
+			);
+			name = "Triangle FlipUITests";
+			productName = "Triangle FlipUITests";
+			productReference = 336F55641F26E50000F79650 /* Triangle FlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336F55371F26E4FD00F79650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nu Seble Games";
+				TargetAttributes = {
+					336F553E1F26E4FD00F79650 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					336F55581F26E50000F79650 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336F553E1F26E4FD00F79650;
+					};
+					336F55631F26E50000F79650 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336F553E1F26E4FD00F79650;
+					};
+				};
+			};
+			buildConfigurationList = 336F553A1F26E4FD00F79650 /* Build configuration list for PBXProject "Triangle Flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336F55361F26E4FC00F79650;
+			productRefGroup = 336F55401F26E4FD00F79650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336F553E1F26E4FD00F79650 /* Triangle Flip */,
+				336F55581F26E50000F79650 /* Triangle FlipTests */,
+				336F55631F26E50000F79650 /* Triangle FlipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336F553D1F26E4FD00F79650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F554E1F26E4FE00F79650 /* Main.storyboard in Resources */,
+				336F55451F26E4FE00F79650 /* GameScene.sks in Resources */,
+				336F55501F26E4FF00F79650 /* Assets.xcassets in Resources */,
+				336F55531F26E4FF00F79650 /* LaunchScreen.storyboard in Resources */,
+				336F55471F26E4FE00F79650 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336F55571F26E50000F79650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336F55621F26E50000F79650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336F553B1F26E4FD00F79650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F55491F26E4FE00F79650 /* GameScene.swift in Sources */,
+				336F554B1F26E4FE00F79650 /* GameViewController.swift in Sources */,
+				336F55431F26E4FD00F79650 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336F55551F26E50000F79650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F555E1F26E50000F79650 /* Triangle_FlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336F55601F26E50000F79650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F55691F26E50000F79650 /* Triangle_FlipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336F555B1F26E50000F79650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336F553E1F26E4FD00F79650 /* Triangle Flip */;
+			targetProxy = 336F555A1F26E50000F79650 /* PBXContainerItemProxy */;
+		};
+		336F55661F26E50000F79650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336F553E1F26E4FD00F79650 /* Triangle Flip */;
+			targetProxy = 336F55651F26E50000F79650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		336F554C1F26E4FE00F79650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336F554D1F26E4FE00F79650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		336F55511F26E4FF00F79650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336F55521F26E4FF00F79650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		336F556B1F26E50100F79650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336F556C1F26E50100F79650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336F556E1F26E50100F79650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Triangle Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-Flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		336F556F1F26E50100F79650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Triangle Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-Flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		336F55711F26E50100F79650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Triangle FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-FlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangle Flip.app/Triangle Flip";
+			};
+			name = Debug;
+		};
+		336F55721F26E50100F79650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Triangle FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-FlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangle Flip.app/Triangle Flip";
+			};
+			name = Release;
+		};
+		336F55741F26E50100F79650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Triangle FlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-FlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Triangle Flip";
+			};
+			name = Debug;
+		};
+		336F55751F26E50100F79650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Triangle FlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-FlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Triangle Flip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336F553A1F26E4FD00F79650 /* Build configuration list for PBXProject "Triangle Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336F556B1F26E50100F79650 /* Debug */,
+				336F556C1F26E50100F79650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336F556D1F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336F556E1F26E50100F79650 /* Debug */,
+				336F556F1F26E50100F79650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		336F55701F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle FlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336F55711F26E50100F79650 /* Debug */,
+				336F55721F26E50100F79650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		336F55731F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle FlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336F55741F26E50100F79650 /* Debug */,
+				336F55751F26E50100F79650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336F55371F26E4FD00F79650 /* Project object */;
+}
