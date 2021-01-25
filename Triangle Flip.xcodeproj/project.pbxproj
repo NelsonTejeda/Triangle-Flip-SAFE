@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330050961F297CC30023B95A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 330050951F297CC30023B95A /* Actions.sks */; };
+		3338CC0C1F4FCC88004ECBE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 336F556A1F26E50100F79650 /* Info.plist */; };
+		333BAE3A1F4D5DAC0052CBE4 /* Quango.otf in Resources */ = {isa = PBXBuildFile; fileRef = 333BAE391F4D5DAC0052CBE4 /* Quango.otf */; };
+		333BAE3C1F4D5F1D0052CBE4 /* trench100free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 333BAE3B1F4D5F1D0052CBE4 /* trench100free.ttf */; };
+		333BAE3E1F4D638C0052CBE4 /* powerUp7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 333BAE3D1F4D638C0052CBE4 /* powerUp7.mp3 */; };
+		336990101F4955CE0093112A /* switchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3369900F1F4955CE0093112A /* switchSound.mp3 */; };
 		336F55431F26E4FD00F79650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F55421F26E4FD00F79650 /* AppDelegate.swift */; };
 		336F55451F26E4FE00F79650 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 336F55441F26E4FE00F79650 /* GameScene.sks */; };
-		336F55471F26E4FE00F79650 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 336F55461F26E4FE00F79650 /* Actions.sks */; };
 		336F55491F26E4FE00F79650 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F55481F26E4FE00F79650 /* GameScene.swift */; };
 		336F554B1F26E4FE00F79650 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F554A1F26E4FE00F79650 /* GameViewController.swift */; };
 		336F554E1F26E4FE00F79650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336F554C1F26E4FE00F79650 /* Main.storyboard */; };
@@ -17,6 +22,12 @@
 		336F55531F26E4FF00F79650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336F55511F26E4FF00F79650 /* LaunchScreen.storyboard */; };
 		336F555E1F26E50000F79650 /* Triangle_FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F555D1F26E50000F79650 /* Triangle_FlipTests.swift */; };
 		336F55691F26E50000F79650 /* Triangle_FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F55681F26E50000F79650 /* Triangle_FlipUITests.swift */; };
+		338931CB1F4D3CE80072C7AE /* prstartk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 338D00031F4BC19F00A0E94D /* prstartk.ttf */; };
+		339B51531F391310007AA982 /* randomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B51521F391310007AA982 /* randomFunc.swift */; };
+		339CFA631F4170D8009C2BEB /* pepSound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339CFA621F4170D8009C2BEB /* pepSound3.mp3 */; };
+		339CFA651F417CED009C2BEB /* Modern Lamp Switch SOUND Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339CFA641F417CED009C2BEB /* Modern Lamp Switch SOUND Effect.mp3 */; };
+		339CFA671F418C35009C2BEB /* Light Tapping Sound Effect (Royalty Free).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 339CFA661F418C35009C2BEB /* Light Tapping Sound Effect (Royalty Free).mp3 */; };
+		963D89751F5B602500E0585D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963D89741F5B602500E0585D /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330050951F297CC30023B95A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		333BAE391F4D5DAC0052CBE4 /* Quango.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quango.otf; sourceTree = "<group>"; };
+		333BAE3B1F4D5F1D0052CBE4 /* trench100free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = trench100free.ttf; sourceTree = "<group>"; };
+		333BAE3D1F4D638C0052CBE4 /* powerUp7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = powerUp7.mp3; sourceTree = "<group>"; };
+		3369900F1F4955CE0093112A /* switchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = switchSound.mp3; sourceTree = "<group>"; };
 		336F553F1F26E4FD00F79650 /* Triangle Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Triangle Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		336F55421F26E4FD00F79650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		336F55441F26E4FE00F79650 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		336F55461F26E4FE00F79650 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		336F55481F26E4FE00F79650 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		336F554A1F26E4FE00F79650 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		336F554D1F26E4FE00F79650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +68,12 @@
 		336F55641F26E50000F79650 /* Triangle FlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triangle FlipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		336F55681F26E50000F79650 /* Triangle_FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle_FlipUITests.swift; sourceTree = "<group>"; };
 		336F556A1F26E50100F79650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338D00031F4BC19F00A0E94D /* prstartk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstartk.ttf; sourceTree = "<group>"; };
+		339B51521F391310007AA982 /* randomFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomFunc.swift; sourceTree = "<group>"; };
+		339CFA621F4170D8009C2BEB /* pepSound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pepSound3.mp3; sourceTree = "<group>"; };
+		339CFA641F417CED009C2BEB /* Modern Lamp Switch SOUND Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Modern Lamp Switch SOUND Effect.mp3"; sourceTree = "<group>"; };
+		339CFA661F418C35009C2BEB /* Light Tapping Sound Effect (Royalty Free).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Light Tapping Sound Effect (Royalty Free).mp3"; sourceTree = "<group>"; };
+		963D89741F5B602500E0585D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963D89751F5B602500E0585D /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,15 +125,21 @@
 		336F55411F26E4FD00F79650 /* Triangle Flip */ = {
 			isa = PBXGroup;
 			children = (
+				963D89741F5B602500E0585D /* GoogleMobileAds.framework */,
+				333BAE3B1F4D5F1D0052CBE4 /* trench100free.ttf */,
+				333BAE391F4D5DAC0052CBE4 /* Quango.otf */,
+				338D00031F4BC19F00A0E94D /* prstartk.ttf */,
 				336F55421F26E4FD00F79650 /* AppDelegate.swift */,
 				336F55441F26E4FE00F79650 /* GameScene.sks */,
-				336F55461F26E4FE00F79650 /* Actions.sks */,
 				336F55481F26E4FE00F79650 /* GameScene.swift */,
+				339B51521F391310007AA982 /* randomFunc.swift */,
 				336F554A1F26E4FE00F79650 /* GameViewController.swift */,
+				330050951F297CC30023B95A /* Actions.sks */,
 				336F554C1F26E4FE00F79650 /* Main.storyboard */,
 				336F554F1F26E4FF00F79650 /* Assets.xcassets */,
-				336F55511F26E4FF00F79650 /* LaunchScreen.storyboard */,
+				339CFA601F417051009C2BEB /* New Group */,
 				336F55541F26E4FF00F79650 /* Info.plist */,
+				339CFA611F417076009C2BEB /* Music */,
 			);
 			path = "Triangle Flip";
 			sourceTree = "<group>";
@@ -132,6 +160,26 @@
 				336F556A1F26E50100F79650 /* Info.plist */,
 			);
 			path = "Triangle FlipUITests";
+			sourceTree = "<group>";
+		};
+		339CFA601F417051009C2BEB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				336F55511F26E4FF00F79650 /* LaunchScreen.storyboard */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		339CFA611F417076009C2BEB /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				339CFA621F4170D8009C2BEB /* pepSound3.mp3 */,
+				339CFA641F417CED009C2BEB /* Modern Lamp Switch SOUND Effect.mp3 */,
+				339CFA661F418C35009C2BEB /* Light Tapping Sound Effect (Royalty Free).mp3 */,
+				3369900F1F4955CE0093112A /* switchSound.mp3 */,
+				333BAE3D1F4D638C0052CBE4 /* powerUp7.mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +250,7 @@
 				TargetAttributes = {
 					336F553E1F26E4FD00F79650 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C93BP7SD3F;
 						ProvisioningStyle = Automatic;
 					};
 					336F55581F26E50000F79650 = {
@@ -241,11 +290,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3338CC0C1F4FCC88004ECBE0 /* Info.plist in Resources */,
+				338931CB1F4D3CE80072C7AE /* prstartk.ttf in Resources */,
+				336990101F4955CE0093112A /* switchSound.mp3 in Resources */,
+				339CFA651F417CED009C2BEB /* Modern Lamp Switch SOUND Effect.mp3 in Resources */,
+				339CFA631F4170D8009C2BEB /* pepSound3.mp3 in Resources */,
 				336F554E1F26E4FE00F79650 /* Main.storyboard in Resources */,
+				339CFA671F418C35009C2BEB /* Light Tapping Sound Effect (Royalty Free).mp3 in Resources */,
 				336F55451F26E4FE00F79650 /* GameScene.sks in Resources */,
 				336F55501F26E4FF00F79650 /* Assets.xcassets in Resources */,
+				333BAE3C1F4D5F1D0052CBE4 /* trench100free.ttf in Resources */,
 				336F55531F26E4FF00F79650 /* LaunchScreen.storyboard in Resources */,
-				336F55471F26E4FE00F79650 /* Actions.sks in Resources */,
+				330050961F297CC30023B95A /* Actions.sks in Resources */,
+				333BAE3A1F4D5DAC0052CBE4 /* Quango.otf in Resources */,
+				333BAE3E1F4D638C0052CBE4 /* powerUp7.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339B51531F391310007AA982 /* randomFunc.swift in Sources */,
 				336F55491F26E4FE00F79650 /* GameScene.swift in Sources */,
 				336F554B1F26E4FE00F79650 /* GameViewController.swift in Sources */,
 				336F55431F26E4FD00F79650 /* AppDelegate.swift in Sources */,
@@ -330,7 +389,7 @@
 		336F556B1F26E50100F79650 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -381,7 +440,7 @@
 		336F556C1F26E50100F79650 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -426,10 +485,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C93BP7SD3F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+				);
 				INFOPLIST_FILE = "Triangle Flip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-Flip";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG1.Triangle-Flip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -438,10 +516,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C93BP7SD3F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+					"$(PROJECT_DIR)/Triangle\\ Flip",
+				);
 				INFOPLIST_FILE = "Triangle Flip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NSG.Triangle-Flip";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSG1.Triangle-Flip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -519,6 +616,7 @@
 				336F556F1F26E50100F79650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		336F55701F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle FlipTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +625,7 @@
 				336F55721F26E50100F79650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		336F55731F26E50100F79650 /* Build configuration list for PBXNativeTarget "Triangle FlipUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +634,7 @@
 				336F55751F26E50100F79650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

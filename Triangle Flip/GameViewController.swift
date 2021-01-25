@@ -9,11 +9,29 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import GoogleMobileAds
 
-class GameViewController: UIViewController {
-
+class GameViewController: UIViewController,GADBannerViewDelegate {
+    @IBOutlet weak var myBanner: GADBannerView!
+    
+    func handleSwipes(sender: UISwipeGestureRecognizer)
+    {
+        if(sender.direction == .down)
+        {
+            print("it worked")
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        //request 
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        
+        //set up add
+        myBanner.adUnitID = "ca-app-pub-1780411186396609/9751459371"
+        myBanner.rootViewController = self
+        myBanner.delegate = self
+        myBanner.load(request)
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
@@ -27,9 +45,12 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
+            view.showsFPS = false
+            view.showsNodeCount = false
         }
+        
+        
+       
     }
 
     override var shouldAutorotate: Bool {
@@ -52,4 +73,5 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
 }
